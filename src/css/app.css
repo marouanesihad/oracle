@@ -1,0 +1,38 @@
+/*
+    Document   : override
+    Created on : <date>
+    Author     : <author>
+    Description:
+        This is where any of your application specific styles should be included
+*/
+a.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #000000;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    columns: #000000;;
+    text-align:center;
+    transition: all 0.2s;
+    background-color:#f44336;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+a.button1:hover{
+    color:#FFFFFF;
+    background-color:#000000;
+}
+.nav-bar {
+    margin-top: 20px;
+    text-align: center;        
+}
+@media all and (max-width:30em){
+    a.button1{
+        display:block;
+        margin:0.4em auto
+    }
+}
